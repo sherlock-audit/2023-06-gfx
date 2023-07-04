@@ -51,6 +51,7 @@ Run tests with Foundry:
 ```
 forge test -vv --fork-url 'POLYGON RPC URL' --fork-block-number 37834659
 ```
+or 
 
 ```bash
 npm run forkTest
