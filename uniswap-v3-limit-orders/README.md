@@ -48,6 +48,9 @@ Before running test, rename `sample.env` to `.env`, and add your mainnet RPC. If
 Note in order to run tests against forked mainnet, your RPC must be an archive node. My favorite archive node is [Alchemy](https://www.alchemy.com). Note use Polygon block number 37834659 for tests.
 
 Run tests with Foundry:
+```
+forge test -vv --fork-url 'POLYGON RPC URL' --fork-block-number 37834659
+```
 
 ```bash
 npm run forkTest
